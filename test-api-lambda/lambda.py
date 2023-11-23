@@ -9,7 +9,7 @@ def read_csv(file):
         for row in reader:
             print(row)
             
-def lamda_handler(event, context):
+def lambda_handler(event, context):
     #read_csv('data')
     return {
         'statusCode': 200,

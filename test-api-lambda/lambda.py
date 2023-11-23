@@ -13,7 +13,7 @@ def lambda_handler(event, context):
     print(event)
     
     bucket = event['Records'][0]['s3']['bucket']['name']
-    objeto = event['Records'][0]['s3']['bucket']['key']
+    objeto = event['Records'][0]['s3']['object']['key']
     
     print(f'Bucket {bucket}')
     print(f'Objeto {objeto}')

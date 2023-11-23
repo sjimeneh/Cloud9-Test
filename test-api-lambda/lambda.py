@@ -17,4 +17,3 @@ def lamda_handler(event, context):
     }
     
     
-read_csv("usuarios")
